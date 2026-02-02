@@ -4,7 +4,7 @@ Este proyecto es un prototipo de **Eficiencia Energética** que optimiza la capt
 
 El sistema busca la posición de mayor incidencia de luz utilizando sensores LDR y reporta métricas de consumo y estado de batería a la nube en tiempo real.
 
-![Pon aquí una foto de tu panel o del Dashboard de Arduino Cloud](link-foto.jpg)
+!PanelSolar.jpg](PanelSolar.jpg)
 
 ## Características Principales
 
