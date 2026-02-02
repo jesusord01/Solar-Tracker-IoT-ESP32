@@ -36,6 +36,7 @@ El código opera en dos bucles paralelos:
 
 El sistema utiliza un promedio de 100 muestras para obtener una lectura de corriente estable, filtrando el ruido del sensor ACS712:
 
+Desarrollado por Edin Jesus Ordoñez Diaz - Ingeniería Mecatrónica UTP
 ```cpp
 float medirCorriente(int pin, float sensitivity, int samples) {
   float voltageAcc = 0;
@@ -48,4 +49,3 @@ float medirCorriente(int pin, float sensitivity, int samples) {
   return -1 * ((avgVoltage - ZERO_POINT_VOLTAGE) / sensitivity);
 }
 
-Desarrollado por Edin Jesus Ordoñez Diaz - Ingeniería Mecatrónica UTP
